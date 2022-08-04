@@ -1,0 +1,127 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: rgb(2, 2, 58);
+    font-size: 'poppins',sans-serif;
+}
+.logo{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width:100%;
+    height: 100VH;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+form{
+    width: 600px;
+    height: 55px;
+    display: flex;
+}
+form input{
+    flex: 1;
+    border: none;
+    outline: none;
+}
+form button{
+    background: rgb(2, 2, 58);
+    padding: 10px 50px;
+    border:none;
+    outline: none;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.container{
+    background-image: url(background.jpg);
+    display: flex;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1fr 1fr;
+}
+.card{
+    background-color:rgb(2, 2, 58) ;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+   
+}
+.card-image{
+    height: 150;
+    margin-bottom: 15px;
+}
+.flag-1{
+    background-image: url(russia.jpg);
+    width: 250px;
+    height: 180px;
+}
+.flag-2{
+    background-image:url(singapore.jpg);
+    width: 250px;
+    height: 180px;
+}
+.flag-3{
+    background-image: url(india.jpg);
+    width: 250px;
+    height: 180px;
+}
+.flag-4{
+    background-image: url(pakistan.jpg);
+    width: 250px;
+    height: 180px;
+}
+.flag-5{
+    background-image: url(japan.jpg);
+    width: 250px;
+    height: 180px;
+}
+.flag-6{
+    background-image: url(saudi\ arabia.jpg);
+    width: 250px;
+    height: 180px;
+}
+.flag-7{
+    background-image: url(malaysia.jpg);
+    width: 250px;
+    height: 180px;
+}
+.flag-8{
+    background-image: url(china.jpg);
+    width: 250px;
+    height: 180px;
+}
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
